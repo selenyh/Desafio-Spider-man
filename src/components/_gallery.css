@@ -1,0 +1,29 @@
+.gallery{
+  padding: 0px;
+  padding-left: 0;
+  z-index: 1;
+  /*margin-top: 2rem;*/
+  position: relative;
+  height: 100%;
+}
+
+.gallery ul{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
+
+.gallery ul li{
+  margin-left: 0px;
+}
+
+.gallery ul li:first-child{
+  margin-left: 0px;
+}
+
+.gallery ul li a img{
+  border: solid 6px white;
+  border-radius: 15px;
+  width: auto;
+  height: 80%;
+}
